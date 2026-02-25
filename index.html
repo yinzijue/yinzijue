@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yin Zijue - Personal Resume</title>
+    <style>
+        /* 这里定义样式，不用深究，直接用 */
+        body {
+            background-color: #0d1117; /* GitHub 深色背景 */
+            color: #c9d1d9; /* GitHub 字体颜色 */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0 8px 24px rgba(1, 4, 9, 0.5);
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        h1 { margin: 0; font-size: 24px; color: #58a6ff; }
+        h2 { margin-top: 30px; font-size: 18px; border-bottom: 1px solid #30363d; padding-bottom: 10px; }
+        p { line-height: 1.6; font-size: 14px; }
+        .tag-container { margin-top: 15px; }
+        .tag {
+            background-color: #388bfd26;
+            color: #58a6ff;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 12px;
+            margin-right: 5px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- 头像部分：把 src 换成你的图片地址 -->
+        <img src="https://avatars.githubusercontent.com/u/你的ID?v=4" alt="Avatar" class="avatar">
+        
+        <h1>Hi 👋, I'm Yin Zijue</h1>
+        <p>A passionate developer from China. Focused on building useful tools and writing clean code.</p>
+        
+        <div class="tag-container">
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+            <span class="tag">Backend</span>
+        </div>
+
+        <h2>📍 About Me</h2>
+        <p>
+            🔭 I’m currently working on <a href="#">My Awesome Project</a><br>
+            🌱 I’m currently learning <strong>System Design</strong><br>
+            💬 Ask me about anything related to <strong>Web Development</strong><br>
+            📫 How to reach me: <a href="mailto:your-email@example.com">your-email@example.com</a>
+        </p>
+
+        <h2>🔗 Links</h2>
+        <p>
+            <a href="https://github.com/yinzijue">GitHub</a> | 
+            <a href="#">My Blog</a> | 
+            <a href="#">LinkedIn</a>
+        </p>
+    </div>
+
+</body>
+</html>
